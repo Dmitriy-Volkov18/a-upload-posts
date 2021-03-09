@@ -1,0 +1,19 @@
+mat-form-field{
+    width: 100%;
+}
+
+mat-spinner{
+    margin: auto;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.signUpBtn{
+    color: rgb(116, 70, 109);
+    flex: 1;
+}

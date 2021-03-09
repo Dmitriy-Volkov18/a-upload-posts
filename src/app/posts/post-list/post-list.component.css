@@ -1,0 +1,40 @@
+:host{
+    display: block;
+    margin-top: 1rem;
+}
+
+.info-text{
+    text-align: center;
+    font-size: 24px;
+    font-weight: 500;
+    color: rgb(116, 70, 109);
+}
+
+mat-spinner{
+    margin: auto;
+    font-size: 100px;
+}
+
+.post-image{
+    width: 50%;
+    margin: auto;
+}
+
+.post-image img{
+    width: 100%;
+}
+
+.editBtn{
+    color: rgb(116, 70, 109);
+}
+
+.noImgContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.noImgContainer img{
+    width: 50%;
+}

@@ -1,0 +1,41 @@
+ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
+button:hover, a:hover{
+    color: rgb(255, 243, 81);
+}
+
+li{
+    margin-right: 15px;
+}
+
+.spacer{
+    flex: 1 1 auto
+}
+
+.active{
+    color: rgb(255, 243, 81);
+}
+
+.logoutBtn{
+    border: none;
+    padding: 6px 10px;
+    color: #fff;
+    font-size: 18px;
+    background-color: transparent;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+mat-toolbar{
+    background-color: rgb(116, 70, 109);
+}

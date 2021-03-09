@@ -1,0 +1,6 @@
+{
+    "env": {
+        "MONGO_PASSWORD": "62OScfbOeUGbzMYw",
+        "JWT_SECRET_KEY": "this_secret_is_so_long_that_i_can`t_even_imagine_it_length"
+    }
+}

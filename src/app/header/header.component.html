@@ -1,0 +1,18 @@
+<mat-toolbar>
+    <span><a routerLink="/">Посты</a></span>
+    <span class="spacer"></span>
+    <ul>
+        <li *ngIf="userIsAuthenticated">
+            <a routerLink="/create" routerLinkActive="active">Добавить пост</a>
+        </li>
+        <li *ngIf="!userIsAuthenticated">
+            <a routerLink="/auth/login" routerLinkActive="active">Войти</a>
+        </li>
+        <li *ngIf="!userIsAuthenticated">
+            <a routerLink="/auth/signup" routerLinkActive="active">Регистрация</a>
+        </li>
+        <li *ngIf="userIsAuthenticated">
+            <button class='logoutBtn'(click)="onLogout()">Выйти</button>
+        </li>
+    </ul>
+</mat-toolbar>
